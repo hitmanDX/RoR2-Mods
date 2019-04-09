@@ -10,4 +10,4 @@
 - /load <config filename> - Load a config file for quick custom game settings.
 
 ## Settings
-- Refer to [example config](build/Risk+of+Rain+2_Data/Config/example.cfg)
+- Refer to [example config](build/Risk%20of%20Rain%202_Data/Config/example.cfg)
