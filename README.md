@@ -1,5 +1,5 @@
 
-# DX's Risk of Rain Mods
+# DX's Risk of Rain 2 Mods
 
 ## Install
 - Install Meepen's Mod Loader ([thunderstore.io](https://thunderstore.io/package/meepen/Meepens_Mod_Loader/) [github](https://github.com/meepen/ror2-modloader)).
