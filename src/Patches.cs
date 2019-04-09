@@ -15,13 +15,11 @@ namespace DXsRoR2Mods {
         const BindingFlags PrivateInstanced = BindingFlags.NonPublic | BindingFlags.Instance;
         const BindingFlags PublicInstanced = BindingFlags.Public | BindingFlags.Instance;
 
-        public static Run run;
-
         [ModEntry("DX's RoR Mods", "1.0.0", "DX")]
         public static void Init() {
             CreateHook(typeof(Run), "Start", PrivateInstanced, "RunStart");
             CreateHook(typeof(Run), "Start", PrivateInstanced, "RunDestroy");
-
+            
             CreateHook(typeof(Chat), "CCSay", PrivateStatic, "ChatCommands");
             
             CreateHook(typeof(SceneDirector), "PopulateScene", PrivateInstanced, "PopulateLoot");

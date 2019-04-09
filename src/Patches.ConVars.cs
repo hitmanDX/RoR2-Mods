@@ -7,7 +7,6 @@ using UnityEngine;
 
 namespace DXsRoR2Mods {
     partial class Patches {
-        private static RoR2.Console console;
 
         public static Dictionary<string, BaseConVar> conVars = new Dictionary<string, BaseConVar>();
 
@@ -21,7 +20,6 @@ namespace DXsRoR2Mods {
         }
 
         static void ConVars_PostFix(RoR2.Console __instance) {
-            console = __instance;
             try {
                 var RegisterConVarInternal = typeof(RoR2.Console).GetMethod("RegisterConVarInternal", PrivateInstanced);
                 foreach (var convar in conVars.Values) {

@@ -1,0 +1,7 @@
+{
+  "strings":
+  {
+    "DX_DICE": "{0} rolled a {1}",
+    "DX_DICE_2P": "You rolled a {1}",
+  }
+}

@@ -8,6 +8,8 @@
 ## Commands
 - /restart - Takes you back to character select screen.
 - /load <config filename> - Load a config file for quick custom game settings.
+- /roll - Rolls a number between 0 - 100.
+- /dice - See /roll
 
 ## Settings
 - Refer to [example config](build/Risk%20of%20Rain%202_Data/Config/example.cfg)
